@@ -1,5 +1,5 @@
 java_library {
-     name: "vendor.google.google_battery-V1.0-java",
+     name: "vendor.google.google_battery-V1-java",
      srcs: [
          "vendor/google/google_battery/V1_0/*.java",
      ],
@@ -14,7 +14,7 @@ java_library {
          "vendor/google/google_battery/V1_1/*.java",
      ],
      static_libs: [
-         "vendor.google.google_battery-V1.0-java",
+         "vendor.google.google_battery-V1-java",
      ],
 }
 
